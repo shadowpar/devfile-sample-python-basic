@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return "Hello Tommy. This is a flask based application created by Robert Hancock to run via an Openshfit deployment."
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
